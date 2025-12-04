@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/home/user/.pub-cache/hosted/pub.dev/flutter_overlay_window-0.5.0/android"
+    name=":flutter_overlay_window"
+    type="LIBRARY"
+    maven="flutter.overlay.window.flutter_overlay_window:flutter_overlay_window:1.0"
+    agpVersion="8.9.1"
+    buildFolder="/home/user/myapp/build/flutter_overlay_window"
+    bootClassPath="/home/user/.androidsdkroot/platforms/android-34/android.jar:/home/user/.androidsdkroot/build-tools/35.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,31 @@
+<variant
+    name="release"
+    package="flutter.overlay.window.flutter_overlay_window"
+    minSdkVersion="16"
+    targetSdkVersion="16"
+    mergedManifest="/home/user/myapp/build/flutter_overlay_window/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    manifestMergeReport="/home/user/myapp/build/flutter_overlay_window/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/home/user/myapp/build/flutter_overlay_window/intermediates/default_proguard_files/global/proguard-android.txt-8.9.1"
+    partialResultsDir="/home/user/myapp/build/flutter_overlay_window/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="/home/user/myapp/build/flutter_overlay_window/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/home/user/myapp/build/flutter_overlay_window/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      type="MAIN"
+      applicationId="flutter.overlay.window.flutter_overlay_window"
+      generatedSourceFolders="/home/user/myapp/build/flutter_overlay_window/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/home/user/myapp/build/flutter_overlay_window/generated/res/resValues/release"
+      desugaredMethodsFiles="/home/user/.gradle/caches/8.12/transforms/f34f3df555b4eefbced64e83092ca99d/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

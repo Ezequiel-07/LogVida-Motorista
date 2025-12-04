@@ -1,0 +1,38 @@
+<variant
+    name="release"
+    package="com.example.myapp"
+    minSdkVersion="24"
+    targetSdkVersion="36"
+    shrinking="true"
+    mergedManifest="/home/user/myapp/build/app/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml"
+    manifestMergeReport="/home/user/myapp/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/home/user/myapp/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.9.1:/home/user/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/home/user/myapp/build/app/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out">
+  <buildFeatures
+      coreLibraryDesugaring="true"
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <artifact
+      classOutputs="/home/user/myapp/build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/home/user/myapp/build/app/tmp/kotlin-classes/release:/home/user/myapp/build/app/kotlinToolingMetadata:/home/user/myapp/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/processReleaseResources/R.jar"
+      type="MAIN"
+      applicationId="com.example.myapp"
+      generatedSourceFolders="/home/user/myapp/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/home/user/myapp/build/app/generated/res/google-services/release:/home/user/myapp/build/app/generated/res/resValues/release"
+      desugaredMethodsFiles="/home/user/.gradle/caches/8.12/transforms/10cfaafe5c7ea7b4744db7a6c9678a95/transformed/desugar_jdk_libs_configuration-2.1.4-desugar-lint.txt:/home/user/.gradle/caches/8.12/transforms/5d8a62d11b6b80c4a3361854296357e0/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>
