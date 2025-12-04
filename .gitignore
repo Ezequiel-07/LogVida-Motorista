@@ -1,35 +1,38 @@
 # Miscellaneous
 *.class
 *.log
-*.lock
-*.pot
-*.swo
+*.pyc
 *.swp
-*~
 .DS_Store
 .atom/
 .buildlog/
 .history
 .svn/
 
-# Flutter/Dart
-.dart_tool/
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter
 .flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
-/build/
-*.apk
-*.aab
-*.app
-*.ipa
-
-# IDEs
-.idea/
-.vscode/
-*.iml
-
-# Generated files
-lib/firebase_options.dart
-
-# Sensitive files
-android/app/google-services.json
+.pub/
+/ios/Pods/
+/ios/Flutter/App.framework
+/ios/Flutter/engine.framework
+/ios/Flutter/flutter_assets/
+/ios/Flutter/Generated.xcconfig
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+/ios/Runner/Infoplist.strings
+/ios/Flutter/Debug.xcconfig
+/ios/Flutter/Release.xcconfig
+.dart_tool/
