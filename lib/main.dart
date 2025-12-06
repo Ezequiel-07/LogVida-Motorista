@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:myapp/splash_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:location/location.dart';
 
@@ -7,7 +8,6 @@ import 'services/auth_service.dart';
 import 'services/location_service.dart';
 import 'services/notification_service.dart';
 import 'services/background_service.dart';
-import 'login_screen.dart'; // Importa a nova tela de login
 import 'screens/overlay_screen.dart';
 
 @pragma("vm:entry-point")
@@ -38,9 +38,9 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Localização em Tempo Real',
+        title: 'LogVida Motorista',
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: const LoginScreen(), // Define a LoginScreen como tela inicial
+        home: const SplashScreen(), // Alterado para a SplashScreen
       ),
     );
   }
