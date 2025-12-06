@@ -7,7 +7,7 @@ import 'services/auth_service.dart';
 import 'services/location_service.dart';
 import 'services/notification_service.dart';
 import 'services/background_service.dart';
-import 'screens/wrapper.dart';
+import 'login_screen.dart'; // Importa a nova tela de login
 import 'screens/overlay_screen.dart';
 
 @pragma("vm:entry-point")
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Localização em Tempo Real',
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: const Wrapper(),
+        home: const LoginScreen(), // Define a LoginScreen como tela inicial
       ),
     );
   }
